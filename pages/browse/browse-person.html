@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>browse-person</title>
+<link href="../../img/common/logo.ico" rel="shortcut icon"  type="image/x-icon">
+<link rel="stylesheet" href="../../css/common/mobile-reset.css">
+<link rel="stylesheet" href="../../css/browse-person.css">
+<link rel="stylesheet" href="../../font/font/iconfont.css">
+<script type="text/javascript" src="../../js/common/Zepto.js"></script>
+<script type="text/javascript" src="../../js/common/base.js"></script>
+<script type="text/javascript" src="../../js/common/touch.js"></script>
+<script type="text/javascript" src="../../js/common/echo.min.js"></script>
+</head>
+<body>
+    <header>
+    	<p class="clearfix">
+    		<i class="iconfont" id='back'>&#xe61b;</i>
+    		<i class="iconfont">&#xe605;</i>
+    	</p>
+    	<div><img src="../../img/browse/person/person-my.png" alt=""></div>
+    </header>
+    <section class="person-pto">
+    	<h1>我是蹦恰恰</h1>
+    	<h6><span>ID：</span><span>94qia</span></h6>
+    	<h3><span>微博：</span><span>我是蹦恰恰</span></h3>
+    	<div>
+    		<h2><span>关注</span>&nbsp<span>16</span></h2>
+    		<h2><span>粉丝</span>&nbsp<span>5047</span></h2>
+    		<h2><span>喜欢</span>&nbsp<span>588</span></h2>
+    	</div>
+    	<p><span>聊天</span><span>关注</span></p>
+    </section>
+    <section class="person-nav clearfix">
+    	<span class="left">158篇文章</span>
+    	<span class="right iconfont">&#xe607;</span>	
+    </section>
+    <section class="person-me">
+    	<h2>
+    		<span>2016年4月</span>
+    		<span>18篇</span>
+    	</h2>
+    	<ul>
+    		<li>
+    			<a href="#">
+    				<p class="me-photo"><img src="../../img/browse/person/person-me1.png" alt=""></p>
+    			</a>
+    		</li>
+    		<li>
+    			<a href="#">
+    				<p class="me-photo"><img src="../../img/browse/person/person-me2.png" alt=""></p>
+    			</a>
+    		</li>
+    		<li>
+    			<a href="#">
+    				<p class="me-photo"><img src="../../img/browse/person/person-me3.png" alt=""></p>
+    			</a>
+
+    		</li>
+    		<li>
+    			<a href="#">
+    				<p class="me-photo"><img src="../../img/browse/person/person-me4.png" alt=""></p>
+    			</a>
+
+    		</li>
+    		<li>
+    			<a href="#">
+    				<p class="me-photo"><img src="../../img/browse/person/person-me5.png" alt=""></p>
+    			</a>
+
+    		</li>
+    		<li>
+    			<a href="#">
+    				<p class="me-photo"><img src="../../img/browse/person/person-me6.png" alt=""></p>
+    			</a>
+
+    		</li>
+    		<li>
+    			<a href="#">
+    				<p class="me-photo"><img src="../../img/browse/person/person-me7.png" alt=""></p>
+    			</a>
+    		</li>
+    		<li>
+    			<a href="#">
+    				<p class="me-photo"><img src="../../img/browse/person/person-me8.png" alt=""></p>
+    			</a>
+    		</li>
+    		<li>
+    			<a href="##">
+    				<p class="me-tap">
+    					<span id="person-topbtn">上一页</span>
+    					<span id="person-num"><em>1</em><b>/</b><em>21</em></span>
+    					<span id="person-bottmbtn">下一页</span>
+    				</p>
+    			</a>
+    		</li>
+    	</ul>
+    </section>
+    <script type="text/javascript">
+    	$(function(){
+    		var a=$('em').eq(0).text();
+    		var b=parseInt(a)
+    		$('#person-topbtn').tap(function(event){
+    			$('#person-bottmbtn').css({
+    					color:"#666666",
+    				})
+    			if(b>1){
+    				b--;
+    				$('em').eq(0).text(b);
+    				if(b==1){
+    					$('#person-topbtn').css({
+    						color:"#f0f0f0",
+    					})
+    				}
+    			}
+    		})
+    		$('#person-bottmbtn').tap(function(event){
+    			$('#person-topbtn').css({
+    					color:"#666666",
+    				})
+    			if(b<=20){
+    				b++;
+    				$('em').eq(0).text(b);
+    				if(b==21){
+    					$('#person-bottmbtn').css({
+    						color:"#f0f0f0",
+    					})
+    				}	
+    			}
+    		})
+                        $('#back').tap(function(){
+                                    window.history.go(-1)
+                        })
+    	})
+    </script>
+</body>
+</html>

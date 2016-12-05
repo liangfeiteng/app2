@@ -1,0 +1,82 @@
+﻿*{
+    -webkit-highlight-color: rgba(0,0,0,0);
+    highlight-color: rgba(0,0,0,0);
+}
+
+/*这是最底部分*/
+.common-all{
+	width: 100%;
+	height: 0.96rem;
+	position: relative;
+	overflow: hidden;
+}
+.common-all .common-bottom{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	max-width: 750px;
+	min-width: 320px;
+	margin: 0 auto;
+	background-color: #24292c;
+	height: 0.96rem;
+	z-index: 5;
+}
+.common-bottom ul{
+	height: 100%;
+}
+.common-bottom ul li{
+	width: 1.5rem;
+	float: left;
+	text-align: center;
+	height: 100%;
+}
+.common-bottom ul li a{
+	color: white;
+	text-decoration: none;
+	vertical-align: middle;
+	display: block;
+	height: 100%;
+}
+.common-bottom ul li a p:nth-child(1){
+	font-size: 0.4rem;
+	padding-top: 0.1rem;
+	height: 0.5rem;
+}
+.common-bottom ul li a p:nth-child(2){
+	font-size: 0.2rem;
+	padding-top: 0.13rem;
+}
+.common-bottom .now a{
+	color: #8db800;
+}
+#takephoto{
+	opacity:0;
+	filter:alpha(opacity=0);
+	font-size:100px;
+	position:absolute;
+	top:0;
+	right:0;	
+}
+.common-all .common-bottom ul li:nth-child(3) a{
+	position: relative;
+	overflow: hidden;
+	display: block;
+}
+
+/***************************************/
+
+
+/*这里是顶部*/
+header{
+	height: 1.27rem;
+	padding: 0.56rem 0.25rem 0.16rem 0.18rem;
+	background: #24292c;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack:justify;
+	justify-content:space-between;
+	-ms-flex-align:center;
+	align-items:center;
+}

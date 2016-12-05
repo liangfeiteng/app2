@@ -1,0 +1,278 @@
+header{
+	display: block;
+	padding: 0;
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 750px;
+	width: 100%;
+	height: 0.9rem;
+	color: #fff;
+	background-color: #24292c;
+	font-size: 0.36rem;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1rem;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+header #back{
+	float: left;
+	padding: 0 0.1rem 0 0.05rem;
+}
+.swiper-container2{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 0.9rem;
+	overflow: hidden;
+	width: 100%;
+}
+.swiper-pagination{
+	width: 100%;
+	margin: 0 auto;
+	height: 0.6rem;
+	overflow: hidden;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	margin-top: 0.9rem;
+	text-align: center;
+	max-width: 750px;
+	min-width: 320px;
+}
+.swiper-pagination li{
+	width: 1.07rem;
+	float: left;
+	display: block;
+	width: 1.07rem;
+	height: 0.6rem;
+	background-color: white;
+	border-radius: 0;
+	line-height: 0.6rem;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	margin: 0;
+}
+.swiper-pagination-bullet{
+	opacity: 1;
+}
+.swiper-pagination-bullet-active{
+	border-bottom: 0.03rem solid #7fa900;
+}
+.swiper-slide{
+	height: 500px;
+}
+.swiper-slide-active{
+	height: auto;
+}
+/*这是主体内容部分*/
+.pretty-imgbox{
+	height: 1.78rem;
+	width: 100%;
+	background-color: #efefef;
+	padding-top: 0.18rem;
+}
+.pretty-imgbox .imgbox{
+	height: 1.42rem;
+	width: 100%;
+	overflow: hidden;
+}
+/*.pretty-imgbox .imgbox ul li{
+	float: left;
+	width: 1.42rem;
+	margin-right: 0.1rem;
+	margin-top: 0.18rem;
+}
+.pretty-imgbox .imgbox ul li:nth-child(5){
+	margin-right: 0;
+}*/
+.pretty-head{
+	height: 1.1rem;
+	line-height: 1.1rem;
+	position: relative;
+}
+.pretty-head p{
+	color: #666;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	float: left;
+	margin-left: 0.4rem;
+	font-size: 0.24rem;
+}
+.pretty-head .rightbox{
+	float: right;
+}
+.pretty-head .rightbox .left{
+	position: absolute;
+	right: 1rem;
+	top:0.17rem;
+	height: 0.75rem;
+	width: 2rem;
+}
+.pretty-head .rightbox .left div{
+	width: 0.75rem;
+	height: 0.75rem;
+	float: left;
+}
+.pretty-head .rightbox .left div:nth-child(2){
+	position: absolute;
+	right: 0.65rem;
+	top: 0rem;
+	z-index: -1;
+}
+.pretty-head .rightbox .left div:nth-child(3){
+	position: absolute;
+	right: 0.03rem;
+	top: 0rem;
+	z-index: -2;
+}
+.pretty-head .rightbox a{
+	text-decoration: none;
+}
+.pretty-head .rightbox a .iconfont{
+	margin-right: 0.3rem;
+	font-size: 0.5rem;
+	color: #7fa900;
+}
+.pretty-cicifont{
+	height: 1.5rem;
+	line-height: 1.5rem;
+	padding: 0.4rem;
+}
+.pretty-cicifont .head{
+	height: 1.5rem;
+	line-height: 1.5rem;
+	float: left;
+	width: 4rem;
+}
+.pretty-cicifont .head p{
+	height: 0.9rem;
+	line-height: 0.9rem;
+}
+.pretty-cicifont .head .imgbox{
+	width: 0.9rem;
+	height: 0.9rem;
+	float: left;
+	margin-right: 0.3rem;
+}
+.pretty-cicifont .click{
+	float: right;
+	line-height: 0.9rem;
+}
+.pretty-cicifont .click a{
+	display: block;
+	width: 1rem;
+	height: 0.56rem;
+	border:0.01rem solid #7fa900;
+	color: #7fa900;
+	text-decoration:none;
+	border-radius: 0.28rem;
+	line-height: 0.56rem;
+	text-align: center;
+	margin-top: 0.17rem;
+}
+.pretty-cici{
+	width: 5rem;
+	margin: 0 auto;
+}
+.pretty-link{
+	height:  0.6rem;
+	line-height: 0.6rem;
+	margin-left: 0.4rem;
+}
+.pretty-link p{
+	float: left;
+	width: 0.3rem;
+	font-size: 0.3rem;
+	color: #bbb;
+}
+.pretty-link ul{
+	float: left;
+	margin-left: 0.2rem;
+}
+.pretty-link ul li{
+	float: left;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+}
+.pretty-link ul li a{
+	text-decoration: none;
+	color: #666;
+	font-size: 0.22rem;
+}
+.pretty-operation{
+	line-height: 0.92rem;
+	height: 0.92rem;
+	margin-left: 0.4rem;
+	margin-right: 0.4rem;
+	font-size: 0.4rem;
+	border-top: 1px dashed black;
+}
+.pretty-operation ul li{
+	float: left;
+	width: 0.8rem;
+	/*text-align: center;*/
+}
+.pretty-operation ul li:last-child{
+	float: right;
+}
+.pretty-operation ul li a{
+	text-decoration: none;
+	color: #666;
+	font-size: 0.4rem;
+}
+.pretty-hot{
+	clear:both;
+	height: 0.4rem;
+	font-size: 0.22rem;
+}
+.pretty-hot p{
+	float: left;
+	margin-left: 0.4rem;
+}
+.pretty-hot p:nth-child(2){
+	margin-left: 0.2rem;
+}
+.pretty-hot span{
+	float: right;
+	margin-right: 0.4rem;
+}
+.pretty-comment{
+	/*height: 0.4rem;*/
+	line-height: 0.4rem;
+	padding-left: 0.4rem;
+}
+.pretty-comment  a{
+	text-decoration: none;
+}
+.pretty-more{
+	height: 2rem;
+	line-height: 2rem;
+}
+.pretty-more a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: #989898;
+}
+.pretty-more a i{
+	font-size: 1rem;
+}
+/*这是新加的评论功能*/
+/* .pretty-comment{
+  	position:relative;
+  }*/
+.pretty-comment .comments{
+	display: none;
+	/*position: absolute;*/
+	/*top: 100%;*/
+	/*left: 0;*/
+	background-color: white;
+	font-size: 0.2rem;
+	/*padding-left: 0.4rem;*/
+ }
+ .pretty-comment .comments input:nth-child(1){
+ 	width: 6rem;
+ }
