@@ -94,11 +94,4 @@ $(function(){
 	// 		$(".pretty-counte p:nth-child(2)").html(a+"评论")
 	// 	}
 	// })
-	// 由于评论功能是需要所有的动态都可以评论 ， 再这里需要用面向对象来封装这个函数、下面是引用封装好的函数. 只需要按照固定的样式添加几个类即可！
-	var comments1= new HLib.comments($(".pretty-ping"),$(".pretty-counte"),$(".comments0"),$(".pretty-first"));
-	comments1.init();
-	var comments2= new HLib.comments($(".pretty-ping2"),$(".pretty-counte2"),$(".comments2"),$(".pretty-first2"));
-	comments2.init();
-	var comments3= new HLib.comments($(".pretty-ping1"),$(".pretty-counte1"),$(".comments1"),$(".pretty-first1"));
-	comments3.init();
 })

@@ -47,7 +47,7 @@ $(function() {
 }), $(function() {
 	for (var t = 1, n = "窪田MAです", e = 1, o = 0; o < 5; o++) {
 		var a = 80 + Math.round(80 * Math.random()),
-			s = '<li><dl><dt><div><img src="img/browse/newest' + t + '-head.png"></div><span>' + n + '</span></dt><dd><img src="img/browse/newest' + e + '.png"></dd><dd><i class="iconfont">&#xe6b7;</i><span>' + a + "</span>人喜欢</dd></dl></li>";
+			s = '<li><dl><dt><div><img src="img/browse/newest' + t + '-head.png"></div><span>' + n + '</span></dt><dd><img src="img/browse/newest' + e + '.png"></dd><dd><i class="iconfont">&#xe641;</i><span>' + a + "</span>人喜欢</dd></dl></li>";
 		$(".newest ul").eq(0).height() <= $(".newest ul").eq(1).height() ? $(".newest ul").eq(0).append(s) : $(".newest ul").eq(1).append(s), t++, e++
 	}
 }), $(function() {

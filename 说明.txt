@@ -1,0 +1,31 @@
+在img目录下：art-->美学
+	     browse-->浏览
+	     common-->公共
+	     home-->我
+	     index-->首页
+
+
+在js目录下：自己写的js可以自创文件夹放里面也可以直接放外面
+	    common里面有：
+		base.js
+		Zepto.js
+		touch.js
+		swiper.js
+		swiper.animate.min.js
+
+在css目录下：common文件夹里有：
+		swiper.min.css
+		animate.min.css
+		common.css
+		(common.css主要写首页下面的导航样式，由尚乐乐写)
+
+
+各自的页面直接放外面，命名html时带模块的前缀，到时候我整理
+各自的其他文件放到对应的文件夹里即可
+
+
+大家的前缀应该不会有冲突的，就自己想一个吧
+
+写在common里面的文件不用加前缀
+
+这个项目可以现实自动刷新，然后，你们开始写吧。

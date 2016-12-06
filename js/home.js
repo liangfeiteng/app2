@@ -1,11 +1,11 @@
 $(function() {
 	// body...
 
-	$("#share").on("tap",function(event){
+	$("#share").on("click",function(event){
 		$(".home-bottom").css("display","block");
 
 	});
-	$("#cancelbth").on("tap",function(event){
+	$("#cancelbth").on("click",function(event){
 		$(".home-bottom").css("display","none");
 	})
 	<!--/***********home.js*******/-->
